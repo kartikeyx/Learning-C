@@ -2,9 +2,9 @@
 #include <stdio.h>
 int main()
 {
-    int count = 0;
-    char str[] = "Hello world.";
     
+    char str[] = "Hello world";
+    int count = 0;
     while(str[count] != '\0');
     {
         ++count;
