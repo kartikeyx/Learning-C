@@ -1,4 +1,4 @@
-//A program to show how to use copy and concatenation function of string
+//A program to show how to use copy and concatenation function of string.
 #include <stdio.h>
 #include <string.h>
 int main()
