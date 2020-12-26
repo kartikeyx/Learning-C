@@ -2,13 +2,8 @@
 #include <stdio.h>
 int main()
 {
-    char str[200];
-    printf("Enter a sentence: ");
-    fgets(str, sizeof(str), stdin);
-
-    char ch;
-    printf("\nEnter a character to find its frequency: ");
-    scanf("%c", ch);
+    char str[] = "Hello world. My name is Kartikey.";
+    char ch = 'e';
     int fre = 0;
 
     for(int i=0; str[i]!='\0'; i++)
