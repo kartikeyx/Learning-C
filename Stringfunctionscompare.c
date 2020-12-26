@@ -1,9 +1,9 @@
 //A program to show how to use compare function of string.
 #include <stdio.h>
 #include <string.h>
-/*void compare(char str1,  str2)
+/*void compare(char str1, char str2)
 {
-    int result = strcmp(str 1, str2);
+    int result = strcmp(str1, str2);
     return result;
 }*/
 int main()
@@ -14,7 +14,7 @@ int main()
     fgets(str1, sizeof(str1), stdin);
     printf("Enter another word to compare: ");
     fgets(str2, sizeof(str2), stdin);
-    int result = strcmp(str1, str2);
+    result = strcmp(str1, str2);
     
     //result = compare(str1, str2);
 
