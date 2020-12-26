@@ -2,7 +2,6 @@
 #include <stdio.h>
 int main()
 {
-    
     char str[] = "Hello world";
     int count = 0;
     while(str[count] != '\0');
