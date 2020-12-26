@@ -1,3 +1,4 @@
+//A program to show how to use length function string
 #include <stdio.h>
 #include <string.h>
 int main()
