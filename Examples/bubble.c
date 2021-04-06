@@ -5,7 +5,7 @@ void bubbleSort(int array[], int size)
 
   // run loops two times: one for walking throught the array
   // and the other for comparison
-  for (int step = 0; step < size - 1; ++step)
+  for (int step = 0; step < size - 1; ++step) 
   {
     for (int i = 0; i < size - step - 1; ++i)
     {
